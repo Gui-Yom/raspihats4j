@@ -1,0 +1,22 @@
+plugins {
+    id 'java-library'
+    id "com.dua3.gradle.jpms" version "0.8.3"
+}
+
+group 'com.limelion'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    api "com.pi4j:pi4j-core:1.2"
+}
+
+moduleInfo {
+    multiRelease = true
+}
