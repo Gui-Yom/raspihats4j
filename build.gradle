@@ -6,7 +6,8 @@ plugins {
 group 'com.limelion'
 version '1.0.0'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
+targetCompatibility = 11
 
 repositories {
     mavenLocal()
